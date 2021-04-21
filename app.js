@@ -64,28 +64,28 @@ linarray.forEach((each, index) => {
                 each.style.background = `${color}`;
                 if(index === 0) {
                     getNotes('digestion.txt');
-                    setImage('img/01.png' , 'The Digestive System');
+                    setImage('01.png' , 'The Digestive System');
                 } else if(index === 1) {
                     getNotes('transport.txt');
-                    setImage('img/02.png' , 'The Transport System');
+                    setImage('02.png' , 'The Transport System');
                 } else if(index === 2) {
                     getNotes('reproduction.txt');
-                    setImage('img/03.png' , 'The Reproductive System');
+                    setImage('03.png' , 'The Reproductive System');
                 } else if(index === 3) {
                     getNotes('nervous.txt');
-                    setImage('img/04.png' , 'The Nervous System');
+                    setImage('04.png' , 'The Nervous System');
                 } else if(index === 4) {
                     getNotes('integuments.txt');
-                    setImage('img/05.png' , 'The Integumentary System');
+                    setImage('05.png' , 'The Integumentary System');
                 } else if(index === 5) {
                     getNotes('excretion.txt');
-                    setImage('img/06.png' , 'The Excretory System');
+                    setImage('06.png' , 'The Excretory System');
                 } else if(index === 6) {
                     getNotes('endocrine.txt');
-                    setImage('img/07.png' , 'The Endocrine System');
+                    setImage('07.png' , 'The Endocrine System');
                 } else if(index === 7) {
                     getNotes('respiration.txt');
-                    setImage('img/08.png' , 'The Respiratory System');
+                    setImage('08.png' , 'The Respiratory System');
                 }
             } else {
                 each.style.background = 'none';
